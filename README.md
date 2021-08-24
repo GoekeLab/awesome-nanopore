@@ -4,7 +4,9 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 ## Citation
 
-
+## Useful links from Oxford Nanopore Technologies
+- [Nanopore sequencing accuracy](http://nanoporetech.com/accuracy)
+- [Nanopore community](https://nanoporetech.com/community)
 
 ## Software packages
 
@@ -12,6 +14,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 - [Nanocall](https://github.com/mateidavid/nanocall) - [C++] - [Nanocall: an open source basecaller for Oxford Nanopore sequencing data](https://academic.oup.com/bioinformatics/article/33/1/49/2525680)
 - [PoreSeq](https://github.com/tszalay/poreseq) - [C++] - [De novo sequencing and variant calling with nanopores using PoreSeq](https://www.nature.com/articles/nbt.3360)
+- [Nanonet](https://github.com/ProgramFiles/nanonet) - [C++] - [Nanonet - Development version of RNN basecaller](https://github.com/ProgramFiles/nanonet)
 - [DeepNano](https://github.com/jeammimi/deepnano) - [Python] - [DeepNano: Deep recurrent neural networks for base calling in MinION nanopore reads](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178751)
 - BasecRAWller - [Close sourced (May request code by emailing IPO@lbl.gov)] - [BasecRAWller: Streaming Nanopore Basecalling Directly from Raw Signal](https://www.biorxiv.org/content/10.1101/133058v1)
 - [Chiron](https://github.com/haotianteng/Chiron) - [Python] - [Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning](https://academic.oup.com/gigascience/article/7/5/giy037/4966989)
