@@ -2,12 +2,6 @@
 
 List of software packages for Nanopore sequencing data analysis, including basecalling, DNA/RNA modifications, etc. [Contributions welcome](https://github.com/goekelab/awesome-nanopore#contributing)...
 
-## Citation
-
-## Useful links from Oxford Nanopore Technologies
-- [Nanopore sequencing accuracy](http://nanoporetech.com/accuracy)
-- [Nanopore community](https://nanoporetech.com/community)
-
 ## Software packages
 
 ### Basecalling
@@ -79,5 +73,7 @@ We welcome contributions and suggestions! Please follow the steps below to contr
 2. Make a change to README.md in this format: `[RESOURCE](LINK)` - [language(s)] - DESCRIPTION
 3. Submit a pull request.
 
-## Acknowledgements
-We would like to thank the following people for their contribution to this repository:
+## Citation
+
+## Contact
+This repository was created by [Yuk Kei Wan](https://github.com/yuukiiwa).
