@@ -1,5 +1,7 @@
 # awesome-nanopore
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 List of software packages for Nanopore sequencing data analysis, including basecalling, DNA/RNA modifications, etc. [Contributions welcome](https://github.com/goekelab/awesome-nanopore#contributing)...
 
 ## Software packages
@@ -55,7 +57,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 ### RNA structure prediction
 
-- [nanoSHAPE](https://github.com/physnano/rRNA_nanoSHAPE) - [Python] - [Direct detection of RNA modifications and structure using single molecule nanopore sequencing](https://www.biorxiv.org/content/10.1101/2020.05.31.126763v1).
+- [nanoSHAPE](https://github.com/physnano/rRNA_nanoSHAPE) - [Python] - [Direct detection of RNA modifications and structure using single molecule nanopore sequencing](https://www.biiorxiv.org/content/10.1101/2020.05.31.126763v1).
 - [PORE-cupine](https://github.com/awjga/PORE-cupine) - [R] - [Determination of isoform-specific RNA structure with nanopore long reads](https://www.nature.com/articles/s41587-020-0712-z).
 
 ### Poly(A) tail length estimation
@@ -74,6 +76,10 @@ We welcome contributions and suggestions! Please follow the steps below to contr
 3. Submit a pull request.
 
 ## Citation
+Wan, Y.K., Hendra, C., Pratanwanich, P.N. & Göke, J. Beyond sequencing: machine learning algorithms extract biology hidden in Nanopore signal data. *Trends in Genetics* (2021). https://doi.org/10.1016/j.tig.2021.09.001.
+
+## What is an awesome list?
+According to [the official awesome Github repository](https://github.com/sindresorhus/awesome), an awesome list on GitHub is "a curation of actual awesome stuff", so an awesome list only includes items that has been reseached on by a contributor who would personally recommend the items. To learn more, please read [the official awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md).
 
 ## Contact
 This repository was created by [Yuk Kei Wan](https://github.com/yuukiiwa).
