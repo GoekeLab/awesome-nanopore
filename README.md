@@ -68,6 +68,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 ### Transcript discovery and quantification
 
 - [bambu](https://github.com/GoekeLab/bambu) - [R] - [Reference-guided isoform reconstruction and quantification for long read RNA-Seq data](http://www.bioconductor.org/packages/release/bioc/html/bambu.html)
+- [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://www.biorxiv.org/content/10.1101/2021.10.23.465402v1)
 
 ## Contributing
 We welcome contributions and suggestions! Please follow the steps below to contribute:
