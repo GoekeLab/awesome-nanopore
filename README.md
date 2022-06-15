@@ -18,22 +18,30 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [Causalcall](https://github.com/scutbioinformatic/causalcall) - [Python] - [Causalcall: Nanopore Basecalling Using a Temporal Convolutional Network](https://www.frontiersin.org/articles/10.3389/fgene.2019.01332/full)
 - [Bonito](https://github.com/nanoporetech/bonito) - [Python] - A PyTorch Basecaller for Oxford Nanopore Reads (research, not production basecaller)
 
-### Adaptive sampling / ReadUntil Real-time mapping
+### Adaptive sampling / ReadUntil Real-time mapping / signal mapping
 
 - [Readfish](https://github.com/LooseLab/readfish) - [Python] - [Readfish enables targeted nanopore sequencing of gigabase-sized genomes](https://www.nature.com/articles/s41587-020-00746-x)
 - [UNCALLED](https://github.com/skovaka/UNCALLED) - [C++] - [Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED](https://www.nature.com/articles/s41587-020-0731-9)
 - [SquiggleNet](https://github.com/welch-lab/SquiggleNet) - [Python] - [Real-Time, Direct Classification of Nanopore Signals with SquiggleNet](https://www.biorxiv.org/content/10.1101/2021.01.15.426907v2)
+- [Sigmap](https://github.com/haowenz/sigmap) - [C/C++] - [Real-time mapping of nanopore raw signals 
+](https://academic.oup.com/bioinformatics/article/37/Supplement_1/i477/6319675)
+- [cwDTW](https://github.com/realbigws/cwDTW) - [C/C++] - [An accurate and rapid continuous wavelet dynamic time warping algorithm for end-to-end mapping in ultra-long nanopore sequencing](https://academic.oup.com/bioinformatics/article/34/17/i722/5093233)
+- [OpenDBA](https://github.com/nodrogluap/OpenDBA) - [C++/CUDA] - [GPU-accelerated Dynamic Time Warp (DTW) Barycenter Averaging](https://github.com/nodrogluap/OpenDBA#how-do-i-use-this-for-oxford-nanopore-data)
+- [Magenta & Maxwell](https://github.com/nodrogluap/maxwell) - [C++/CUDA] - [Fast signal-level matching for direct RNA nanopore sequencing](https://github.com/nodrogluap/maxwell)
 
 ### Segmentation
 
 - [tombo resquiggle](https://nanoporetech.github.io/tombo/resquiggle.html) - [Python] - [Re-squiggle Algorithm](https://nanoporetech.github.io/tombo/resquiggle.html).
 - [nanopolish eventalign](https://github.com/jts/nanopolish) - [C++] - [Detecting DNA cytosine methylation using nanopore sequencing](https://www.nature.com/articles/nmeth.4184).
+- [f5c eventalign](https://github.com/hasindu2008/f5c) - [C/C++/CUDA] - [GPU accelerated adaptive banded event alignment for rapid comparative nanopore signal analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03697-x)
+- [SquiggleKit Segmenter/MotifSeq](https://github.com/Psy-Fer/SquiggleKit) - [Python] - [SquiggleKit: a toolkit for manipulating nanopore signal data](https://academic.oup.com/bioinformatics/article/35/24/5372/5537108)
 
 ### DNA modification analysis
 
 - [Megalodon](https://github.com/nanoporetech/megalodon) - [C++] - Research modified base caller which uses rerio, remora and a genome.
 - [modbam2bed](https://github.com/epi2me-labs/modbam2bed) - [C++] - Convert modified base calls from megalodon etc to bedMethyl format
 - [nanopolish call-methylation](https://github.com/jts/nanopolish) - [C++] - [Detecting DNA cytosine methylation using nanopore sequencing](https://www.nature.com/articles/nmeth.4184).
+- [f5c call-methylation](https://github.com/hasindu2008/f5c) - [C/C++/CUDA] - [GPU accelerated adaptive banded event alignment for rapid comparative nanopore signal analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03697-x)
 - [nanoNOMe](https://github.com/timplab/nanoNOMe) - [Python] - [Simultaneous profiling of chromatin accessibility and methylation on human cell lines with nanopore sequencing](https://www.nature.com/articles/s41592-020-01000-7).
 - [signalAlign](https://github.com/ArtRand/signalAlign) - [C] - [Mapping DNA methylation with high-throughput nanopore sequencing](https://www.nature.com/articles/nmeth.4189).
 - [mCaller](https://github.com/al-mcintyre/mCaller) - [Python] - [Single-molecule sequencing detection of N6-methyladenine in microbial reference materials](https://www.nature.com/articles/s41467-019-08289-9).
@@ -73,6 +81,15 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [bambu](https://github.com/GoekeLab/bambu) - [R] - [Reference-guided isoform reconstruction and quantification for long read RNA-Seq data](http://www.bioconductor.org/packages/release/bioc/html/bambu.html)
 - [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://www.biorxiv.org/content/10.1101/2021.10.23.465402v1)
 - [TALON](https://github.com/mortazavilab/TALON) - [Python] - [Python package for identifying and quantifying known and novel genes/isoforms in long-read transcriptome data sets](https://www.biorxiv.org/content/10.1101/672931v2) **Run before** [TranscriptClean](https://github.com/mortazavilab/TranscriptClean)
+
+## Raw signal data manipulation, conversion, visualisation, etc.
+
+- [slow5lib](https://github.com/hasindu2008/slow5lib) - [C] - [Fast nanopore sequencing data analysis with SLOW5
+](https://www.nature.com/articles/s41587-021-01147-4)
+- [pyslow5](https://pypi.org/project/pyslow5/) - [Python] - [pyslow5 python library
+](https://hasindu2008.github.io/slow5lib/pyslow5_api/pyslow5.html)
+- [slow5tools](https://github.com/hasindu2008/slow5tools) - [C/C++] - [Toolkit for converting (FAST5 <-> SLOW5), compressing, viewing, indexing and manipulating data in SLOW5 format](https://hasindu2008.github.io/slow5tools/)
+- [SquiggleKit SquigglePlot](https://github.com/Psy-Fer/SquiggleKit) - [Python] - [SquiggleKit: a toolkit for manipulating nanopore signal data](https://academic.oup.com/bioinformatics/article/35/24/5372/5537108)
 
 ## Contributing
 We welcome contributions and suggestions! Please follow the steps below to contribute:
