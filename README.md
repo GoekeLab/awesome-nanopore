@@ -79,10 +79,10 @@ List of software packages for Nanopore sequencing data analysis, including basec
 ### Transcript discovery and quantification
 
 - [bambu](https://github.com/GoekeLab/bambu) - [R] - [Reference-guided isoform reconstruction and quantification for long read RNA-Seq data](http://www.bioconductor.org/packages/release/bioc/html/bambu.html)
-- [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://www.biorxiv.org/content/10.1101/2021.10.23.465402v1)
+- [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://academic.oup.com/bioinformatics/article/38/15/3741/6594111)
 - [TALON](https://github.com/mortazavilab/TALON) - [Python] - [Python package for identifying and quantifying known and novel genes/isoforms in long-read transcriptome data sets](https://www.biorxiv.org/content/10.1101/672931v2) **Run before** [TranscriptClean](https://github.com/mortazavilab/TranscriptClean)
 
-## Raw signal data manipulation, conversion, visualisation, etc.
+### Raw signal data manipulation, conversion, visualisation, etc.
 
 - [slow5lib](https://github.com/hasindu2008/slow5lib) - [C] - [Fast nanopore sequencing data analysis with SLOW5
 ](https://www.nature.com/articles/s41587-021-01147-4)
@@ -97,6 +97,15 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 ## Metagenomics
 - [nf-Wochenende](https://github.com/MHH-RCUG/nf_wochenende) - [Nextflow, Python] - [Wochenende - modular and flexible alignment-based shotgun metagenome analysis](https://www.biorxiv.org/content/10.1101/2022.03.18.484377v3)
+
+### Single-cell analysis
+
+- [BLAZE](https://github.com/shimlab/BLAZE) - [Python] - [Identification of cell barcodes from long-read single-cell RNA-seq with BLAZE](https://www.biorxiv.org/content/10.1101/2022.08.16.504056v1)
+
+## Pipelines
+
+- [MOP2](https://github.com/biocorecrg/MOP2) - [Nextflow] - [MasterOfPores: A Workflow for the Analysis of Oxford Nanopore Direct RNA Sequencing Datasets](https://www.frontiersin.org/articles/10.3389/fgene.2020.00211/full)
+
 
 ## Contributing
 We welcome contributions and suggestions! Please follow the steps below to contribute:
