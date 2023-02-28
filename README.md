@@ -55,7 +55,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [MINES](https://github.com/YeoLab/MINES) - [Python] - [Direct RNA sequencing enables m6A detection in endogenous transcript isoforms at base specific resolution](https://rnajournal.cshlp.org/content/early/2019/10/17/rna.072785.119).
 - [EpiNano](https://github.com/enovoa/EpiNano) - [Python] - [Accurate detection of m6A RNA modifications in native RNA sequences](https://www.nature.com/articles/s41467-019-11713-9).
 - [Nanom6A](https://github.com/gaoyubang/nanom6A) - [Python] - [Quantitative profiling of N6-methyladenosine at single-base resolution in stem-differentiating xylem of Populus trichocarpa using Nanopore direct RNA sequencing](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02241-7).
-- [m6anet](https://github.com/GoekeLab/m6anet) - [Python] - [Detection of m6A from direct RNA-Seq data](http://doi.org/10.5281/zenodo.4692776).
+- [m6anet](https://github.com/GoekeLab/m6anet) - [Python] - [Detection of m6A from direct RNA sequencing using a multiple instance learning framework](https://www.nature.com/articles/s41592-022-01666-1).
 - [nano-ID](https://github.com/birdumbrella/nano-ID) - [R] - [Native molecule sequencing by nano-ID reveals synthesis and stability of RNA isoforms](https://genome.cshlp.org/content/30/9/1332.full).
 - [nanoRMS](https://github.com/novoalab/nanoRMS) - [Python] - [Quantitative profiling of pseudouridylation dynamics in native RNAs with nanopore sequencing](https://www.nature.com/articles/s41587-021-00915-6?proof=t%3B).
 - [Yanocomp](https://github.com/bartongroup/yanocomp) - [Python] - [Yanocomp: robust prediction of m6A modifications in individual nanopore direct RNA reads](https://www.biorxiv.org/content/10.1101/2021.06.15.448494v1).
@@ -78,7 +78,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 ### Transcript discovery and quantification
 
-- [bambu](https://github.com/GoekeLab/bambu) - [R] - [Reference-guided isoform reconstruction and quantification for long read RNA-Seq data](http://www.bioconductor.org/packages/release/bioc/html/bambu.html)
+- [bambu](https://github.com/GoekeLab/bambu) - [R] - [Context-Aware Transcript Quantification from Long Read RNA-Seq data with Bambu](https://www.biorxiv.org/content/10.1101/2022.11.14.516358v2)
 - [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://academic.oup.com/bioinformatics/article/38/15/3741/6594111)
 - [TALON](https://github.com/mortazavilab/TALON) - [Python] - [Python package for identifying and quantifying known and novel genes/isoforms in long-read transcriptome data sets](https://www.biorxiv.org/content/10.1101/672931v2) **Run before** [TranscriptClean](https://github.com/mortazavilab/TranscriptClean)
 - [trackcluster](https://github.com/runsheng/trackcluster) -[Python] - [trackcluster is an isoform calling and quantification pipeline for long RNA/cDNA reads](https://genome.cshlp.org/content/30/2/287.short)
