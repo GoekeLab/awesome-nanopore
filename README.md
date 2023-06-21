@@ -78,7 +78,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 ### Transcript discovery and quantification
 
-- [bambu](https://github.com/GoekeLab/bambu) - [R] - [Context-Aware Transcript Quantification from Long Read RNA-Seq data with Bambu](https://www.biorxiv.org/content/10.1101/2022.11.14.516358v2)
+- [bambu](https://github.com/GoekeLab/bambu) - [R] - [Context-Aware Transcript Quantification from Long Read RNA-Seq data with Bambu](https://rdcu.be/deluQ)
 - [NanoSplicer](https://github.com/shimlab/NanoSplicer) - [Python] - [Identification of splice junctions from nanopore sequencing using raw signal squiggles](https://academic.oup.com/bioinformatics/article/38/15/3741/6594111)
 - [TALON](https://github.com/mortazavilab/TALON) - [Python] - [Python package for identifying and quantifying known and novel genes/isoforms in long-read transcriptome data sets](https://www.biorxiv.org/content/10.1101/672931v2) **Run before** [TranscriptClean](https://github.com/mortazavilab/TranscriptClean)
 - [trackcluster](https://github.com/runsheng/trackcluster) -[Python] - [trackcluster is an isoform calling and quantification pipeline for long RNA/cDNA reads](https://genome.cshlp.org/content/30/2/287.short)
