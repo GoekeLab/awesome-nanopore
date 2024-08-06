@@ -66,6 +66,10 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [nanocompore](https://github.com/tleonardi/nanocompore) - [Python] - [RNA modifications detection by comparative Nanopore direct RNA sequencing](https://www.biorxiv.org/content/10.1101/843136v1).
 - [DRUMMER](https://github.com/DepledgeLab/DRUMMER) - [Python] - [Direct RNA sequencing reveals m6A modifications on adenovirus RNA are necessary for efficient splicing](https://www.nature.com/articles/s41467-020-19787-6.pdf?origin=ppub).
 - [xPore](https://github.com/GoekeLab/xpore) - [Python] - [Identification of differential RNA modifications from nanopore direct RNA sequencing with xPore](https://doi.org/10.1038/s41587-021-00949-w).
+- [Magnipore](https://github.com/rnajena/magnipore) - [Python] - [Magnipore: Prediction of differential single nucleotide changes in the Oxford Nanopore Technologies sequencing signal of SARS-CoV-2 samples](https://doi.org/10.1101/2023.03.17.533105)
+- [DENA](https://github.com/weir12/DENA) - [Python/R] - [DENA: training an authentic neural network model using Nanopore sequencing data of Arabidopsis transcripts for detection and quantification of N6-methyladenosine on RNA](https://doi.org/10.1186/s13059-021-02598-3)
+- [mAFiA](https://github.com/dieterich-lab/mAFiA) - [Python] - [Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data](https://doi.org/10.1038/s41467-024-47661-2)
+- [Penguin](https://github.com/Janga-Lab/Penguin) - [Python] - [Penguin: A Tool for Predicting Pseudouridine Sites in Direct RNA Nanopore Sequencing Data](https://doi.org/10.1016/j.ymeth.2022.02.005)
 
 ### RNA structure prediction
 
