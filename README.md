@@ -65,6 +65,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 - [minimap2](https://github.com/lh3/minimap2) - [C] - [Minimap2: pairwise alignment for nucleotide sequences](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778)
 - [Winnowmap](https://github.com/marbl/winnowmap) - [C] - [Weighted minimizer sampling improves long read mapping](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i111/5870473)
+- [NGMLR](https://github.com/philres/ngmlr) - [C++] - [Long-read mapper designed to align PacBio or Oxford Nanopore reads to a reference genome with a focus on reads that span structural variations](https://www.nature.com/articles/s41592-018-0001-7)
 
 ### Signal analysis
 
@@ -102,6 +103,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [Clair3](https://github.com/HKU-BAL/Clair3) - [Python/C++] - [Clair3-RNA: a deep learning-based small variant caller for long-read RNA sequencing data](https://www.nature.com/articles/s41467-025-67237-y)
 - [Sniffles](https://github.com/fritzsedlazeck/sniffles) - [Python] - [Detection of mosaic and population-level structural variants with Sniffles2](https://www.nature.com/articles/s41587-023-02024-y)
 - [whatshap](https://github.com/whatshap/whatshap) - [Python/C++] - [Read-Based Phasing and Analysis of Phased Variants with WhatsHap](https://link.springer.com/protocol/10.1007/978-1-0716-2819-5_8)
+- [LongPhase](https://github.com/twolinin/longphase) - [C] - [An ultra-fast program for simultaneously co-phasing SNPs, small indels, large SVs, and (5mC) modifications for Nanopore and PacBio platforms](https://academic.oup.com/bioinformatics/article/38/7/1816/6519151)
 
 ### Modification analysis
 
@@ -115,6 +117,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [mCaller](https://github.com/al-mcintyre/mCaller) - [Python] - [Single-molecule sequencing detection of N6-methyladenine in microbial reference materials](https://www.nature.com/articles/s41467-019-08289-9).
 - [DeepSignals](https://github.com/bioinfomaticsCSU/deepsignal) - [Python] - [DeepSignal: detecting DNA methylation state from Nanopore sequencing reads using deep-learning](https://academic.oup.com/bioinformatics/article/35/22/4586/5474907).
 - [NanoMod](https://github.com/WGLab/NanoMod) - [Python] - [NanoMod: a computational tool to detect DNA modifications using Nanopore long-read sequencing data](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5372-8).
+- [MethQC](https://github.com/JMencius/methqc) - [Python] - Quality control for DNA methylation detection in long-read sequencing.
 
 #### RNA modification analysis
 
