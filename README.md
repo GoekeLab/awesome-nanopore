@@ -24,6 +24,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
   - [Transcriptomics](#transcriptomics)
     - [Transcript discovery and quantification](#transcript-discovery-and-quantification)
     - [Poly(A) tail length estimation](#polya-tail-length-estimation)
+    - [Poly(A) tail non-adenosine estimation](#polya-tail-non-adenosine-estimation)
     - [RNA structure prediction](#rna-structure-prediction)
     - [Single-cell analysis](#single-cell-analysis)
   - [Simulation](#simulation)
@@ -96,6 +97,7 @@ List of software packages for Nanopore sequencing data analysis, including basec
 - [slow5tools](https://github.com/hasindu2008/slow5tools) - [C/C++] - [Toolkit for converting (FAST5 <-> SLOW5), compressing, viewing, indexing and manipulating data in SLOW5 format](https://hasindu2008.github.io/slow5tools/)
 - [SquiggleKit SquigglePlot](https://github.com/Psy-Fer/SquiggleKit) - [Python] - [SquiggleKit: a toolkit for manipulating nanopore signal data](https://academic.oup.com/bioinformatics/article/35/24/5372/5537108)
 - [Squigualiser](https://github.com/hiruna72/squigualiser) - [Python] - [Interactive visualization of nanopore sequencing signal data with Squigualiser](doi.org/10.1093/bioinformatics/btae501)
+- [pod5R](https://github.com/LRB-IIMCB/pod5R) - [R] - An R interface to pod5 file format by Oxford Nanopore Technologies
 
 ### Variant, SV calling, Phasing
 
@@ -176,6 +178,10 @@ List of software packages for Nanopore sequencing data analysis, including basec
 
 - [nanopolish polya](https://github.com/jts/nanopolish) - [C++] - [Nanopore native RNA sequencing of a human poly(A) transcriptome](https://www.nature.com/articles/s41592-019-0617-2?proof=t).
 - [tailfindr](https://github.com/adnaniazi/tailfindr) - [R] - [tailfindr: Alignment-free poly(A) length measurement for Oxford Nanopore RNA and DNA sequencing](https://rnajournal.cshlp.org/content/early/2019/07/02/rna.071332.119).
+
+#### Poly(A) tail non-adenosine estimation
+
+- [ninetails](https://github.com/LRB-IIMCB/ninetails) - [R/Python] - [Direct profiling of non-adenosines in poly(A) tails of endogenous and therapeutic mRNAs with Ninetails](https://www.nature.com/articles/s41467-025-57787-6)
 
 #### RNA structure prediction
 
